@@ -545,6 +545,13 @@ dex_import {
 }
 
 dex_import {
+	name: "qti-telephony-common",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "remotesimlockmanagerlibrary",
 	owner: "asus",
 	jars: ["proprietary/system_ext/framework/remotesimlockmanagerlibrary.jar"],
